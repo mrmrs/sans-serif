@@ -1,0 +1,37 @@
+{
+  "name": "sans-serif",
+  "description": "CSS module for utilizing system fonts",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/system-fonts.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "css",
+    "system",
+    "mac",
+    "ios",
+    "ubuntu",
+    "apple",
+    "typefaces",
+    "performance",
+    "fonts",
+    "type faces",
+    "typography",
+    "design"
+  ],
+  "repository": "mrmrs/css-system-fonts",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.3.0"
+  },
+  "scripts": {
+    "start": "tachyons src/sans-serif.css > css/sans-serif.css && tachyons src/sans-serif.css --minify > css/sans-serif.min.css && tachyons src/sans-serif.css --generate-docs --package=../../package.json > readme.md"
+  }
+}
